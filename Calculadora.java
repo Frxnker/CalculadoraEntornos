@@ -33,6 +33,11 @@ public class Calculadora {
         return (n1 + n2) / 2;
     }
 
+    // Agregar el método multiplicación_de_3
+    public static double multiplicación_de_3(double n1, double n2, double n3) {
+        return n1 * n2 * n3;
+    }
+
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
         
