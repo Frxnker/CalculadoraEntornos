@@ -28,7 +28,11 @@ public class Calculadora {
         return Math.pow(base, exponente);
     }
 
-    
+    // Agregar el método media
+    public static double media(double n1, double n2) {
+        return (n1 + n2) / 2;
+    }
+
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
         
