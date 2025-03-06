@@ -22,6 +22,12 @@ public class Calculadora {
         }
         return (double) a / b;
     }
+
+    // Agregar el método potencia
+    public static double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
+
     
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
